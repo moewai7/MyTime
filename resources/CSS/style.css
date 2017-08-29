@@ -11,6 +11,12 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+body {
+  margin: 0;
+}
+body {
+  display: block;
+}
 
 .logo {
   display: flex;
@@ -36,4 +42,55 @@ header nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column .large{
+  width: 630px;
+}
+.column .medium{
+  width: 300px;
+}
+.column .small{
+  width: 240px;
+}
+div {
+  border: 1px solid black;
+}
+div {
+  display: block;
+}
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+h3{
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
 }
